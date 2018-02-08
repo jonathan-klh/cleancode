@@ -8,7 +8,7 @@ class HelloWorldTest extends \PHPUnit_Extensions_Selenium2TestCase
     {
         $this->setHost('127.0.0.1');
         $this->setPort(4444);
-        $this->setBrowserUrl('http://192.168.8.43/cleancode');
+        $this->setBrowserUrl('http://8.35.192.0:8080/cleancode');
         $this->setBrowser('chrome');
     }
 
