@@ -22,4 +22,5 @@ install:
 
 script:
   - ./vendor/bin/phpunit -c phpunit.xml --coverage-text
+  - ./vendor/bin/phpcs --standard=PSR2
 
