@@ -2,7 +2,7 @@
 
 namespace Selenium\Test;
 
-class HelloWorldTest extends \PHPUnit_Extensions_Selenium2TestCase
+class HelloWorld extends \PHPUnit_Extensions_Selenium2TestCase
 {
     public function setUp()
     {

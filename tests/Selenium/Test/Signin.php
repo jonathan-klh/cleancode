@@ -2,7 +2,7 @@
 
 namespace Selenium\Test;
 
-class SigninTest extends \PHPUnit_Extensions_Selenium2TestCase
+class Signin extends \PHPUnit_Extensions_Selenium2TestCase
 {
     const BASE_URL = 'http://8.35.192.0:8080/cleancode';
     public function setUp()
