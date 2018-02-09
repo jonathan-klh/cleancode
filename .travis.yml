@@ -21,6 +21,7 @@ install:
   - composer install --no-interaction --prefer-source
 
 script:
+  - .vendor/bin/php-cs-fixer fix src/ --rules=@PSR2
   - ./vendor/bin/phpunit -c phpunit.xml --coverage-text
   - ./vendor/bin/phpcs --standard=PSR2
 
